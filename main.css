@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 .past-games__name {
   font-size: 21px;
   font-weight: bold;
-  margin-bottom: -10px;
+  margin-bottom: 0;
 }
 
 .past-games {
@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .logo {
   display: block;
   position: absolute;
-  top: 46px;
+  top: 39px;
   left: 0;
 }
 
