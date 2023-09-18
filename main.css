@@ -139,6 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   border-radius: 5px;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .btn--color--purple {
@@ -168,6 +169,11 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   border-color: #fff;
   color: #fff;
+}
+
+.btn--color--none:hover {
+  border-color: #8E8E8E;
+  color: #8E8E8E;
 }
 
 .section {
@@ -397,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .logo {
   display: block;
   position: absolute;
-  top: 39px;
+  top: 46px;
   left: 0;
 }
 
