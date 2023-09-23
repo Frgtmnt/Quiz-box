@@ -1,0 +1,19 @@
+.footer-container__content {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer-container__games {
+  background: #17191C;
+}
+
+.footer {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .contacts__info {
+  font-size: 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.breadcrumps__list {
+  display: flex;
+  color: #9A9A9A;
+  font-weight: normal;
+}
+
+.breadcrumps__item {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.breadcrumps__item:after {
+  content: "/";
+  padding: 0 2px;
+  color: #9A9A9A;
+}
+
+.breadcrumps__item:last-child:after {
+  display: none;
+}
+
+.breadcrumps__item--active {
+  font-weight: bold;
+}

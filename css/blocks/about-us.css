@@ -1,0 +1,35 @@
+.about-us {
+  margin-bottom: 50px;
+}
+
+.about-us__img, .about-us__content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about-us__img {
+  width: 434px;
+  border-radius: 5px;
+}
+
+.about-us__content {
+  width: 696px;
+  height: 402px;
+  border-radius: 5px;
+  padding: 60px 70px;
+  background: linear-gradient(to right, rgba(143, 0, 255, 1), rgba(20, 140, 255, 1));
+  margin-left: -124px;
+  margin-top: 88px;
+}
+
+.about-us__title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.about-us__text {
+  width: 450px;
+  line-height: 1.7;
+  margin-bottom: 64px
+}

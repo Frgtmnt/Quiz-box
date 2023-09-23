@@ -1,0 +1,41 @@
+.partners {
+  background: #F4F5F5;
+  padding: 62px 0;
+}
+
+.partners__title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 52px;
+  color: #1A1B1E;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  margin-left: 30px;
+  filter: grayscale(100%);
+}
+
+.partners__item:hover {
+  filter: grayscale(0);
+}
+
+.partners__item:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+.partners__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 110px;
+}
+
+.partners__logo {
+  max-width: 100%;
+}

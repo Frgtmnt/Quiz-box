@@ -1,0 +1,59 @@
+.games {
+  display: flex;
+  align-items: flex-end;
+  padding: 84px;
+  background: #fff;
+}
+
+.games__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.games__item {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.games__img-wrapper {
+  display: flex;
+  align-items: center;
+  min-width: 40%;
+  height: 300px;
+  background: #000;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 55px;
+}
+
+.games__img {
+  max-width: 100%;
+}
+
+.games__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.games__title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.games__text {
+  font-size: 14px;
+  font-weight: normal;
+  color: #303030;
+  line-height: 1.72;
+  margin-bottom: 22px;
+}
+
+.games__button {
+  margin-bottom: 18px;
+}
+
