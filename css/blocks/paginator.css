@@ -33,4 +33,5 @@
 
 .paginator__pages--active {
   background: #8F00FF;
+  color: #fff;
 }

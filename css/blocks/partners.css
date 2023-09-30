@@ -1,15 +1,3 @@
-.partners {
-  background: #F4F5F5;
-  padding: 62px 0;
-}
-
-.partners__title {
-  font-size: 42px;
-  font-weight: bold;
-  margin-bottom: 52px;
-  color: #1A1B1E;
-}
-
 .partners__list {
   display: flex;
   flex-wrap: wrap;
@@ -22,6 +10,7 @@
 
 .partners__item:hover {
   filter: grayscale(0);
+  transition: .5s;
 }
 
 .partners__item:nth-child(4n + 1) {

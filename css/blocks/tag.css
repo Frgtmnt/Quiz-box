@@ -1,0 +1,10 @@
+.tag {
+  font-size: 11px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  background: #E7E7E7;
+}
+
+.tag--active {
+  background: #B9EAE4;
+}

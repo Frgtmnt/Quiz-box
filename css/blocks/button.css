@@ -23,13 +23,12 @@
 
 .btn--color--white {
   color: #8F00FF;
-  background: #fff;
+  background: none;
   border-color: #8F00FF;
 }
 
 .btn--color--white:hover {
   color: #741BBA;
-  background: #fff;
   border-color: #741BBA;
 }
 
@@ -42,4 +41,20 @@
 .btn--color--none:hover {
   border-color: #8E8E8E;
   color: #8E8E8E;
+}
+
+.btn--color--gray {
+  background: #8E8E8E;
+  border-color: #8E8E8E;
+  color: #fff;
+}
+
+.btn--color--gray:hover {
+  background: #2B2B2B;
+  border-color: #2B2B2B;
+  color: #fff;
+}
+
+.btn--color--purple:hover, .btn--color--white:hover, .btn--color--none:hover, .btn--color--gray:hover {
+  transition: .5s;
 }
